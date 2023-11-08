@@ -1,0 +1,104 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url('./folha-caderno-real.avif');
+    background-size: cover; /* Isso ajustará a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa mesmo durante a rolagem */
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .container, .container2 {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 5px;
+    }
+
+    .gallery img {
+        max-width: 100%;
+        border: 1px solid #ff00008e;
+        border-radius: 10px;
+    }
+}
+
+header {
+    background-color: #ff0000b4; /* Rosa mais escuro para o cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif; /* Fonte poética */
+    font-size: 36px;
+}
+
+.container, .container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff71;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Toque morbido com bordas arredondadas */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ff0000a1; /* Rosa pálido para a borda das imagens */
+    border-radius: 15px; /* Toque morbido com bordas arredondadas */
+}
+
+#perfil-img {
+    margin-top: 10px;
+    max-height: 200px;
+    border-radius: 100%;
+    border: 5px solid #ffffff71; /* Borda branca para destacar a foto de perfil */
+}
+
+.container2 {
+    background-color: #ffffff65; /* Fundo branco para a seção de redes sociais */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Toque morbido com bordas arredondadas */
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.instagram-logo, .email-logo {
+    width: 50px; /* Tamanho das imagens de redes sociais */
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Efeito de escala suave ao passar o mouse sobre os ícones de redes sociais */
+.instagram-logo:hover, .email-logo:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #ff00009a; /* Cor de destaque para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Fontes personalizadas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
