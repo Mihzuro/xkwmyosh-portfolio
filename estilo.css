@@ -1,9 +1,9 @@
 body {
     font-family: "Arial", sans-serif;
-    background-image: url('./folha-caderno-real.avif');
+    background-image: url('./papelRosa.jpg');
     background-size: cover; /* Isso ajustará a imagem para cobrir toda a tela */
     background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa mesmo durante a rolagem */
+    background-attachment: fixed;  /*Mantém a imagem fixa mesmo durante a rolagem */
     margin: 0;
     padding: 0;
 }
@@ -21,14 +21,14 @@ body {
 
     .gallery img {
         max-width: 100%;
-        border: 1px solid #ff00008e;
+        border: 1px solid  rgb(255, 0, 242);
         border-radius: 10px;
     }
 }
 
 header {
-    background-color: #ff0000b4; /* Rosa mais escuro para o cabeçalho */
-    color: white;
+    background-color: #000000e3; /* Rosa mais escuro para o cabeçalho */
+    color:  rgb(255, 0, 242);
     padding: 20px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ h1 {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff71;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.932);
     border-radius: 15px; /* Toque morbido com bordas arredondadas */
 }
 
@@ -57,15 +57,15 @@ h1 {
 .gallery img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ff0000a1; /* Rosa pálido para a borda das imagens */
+    border: 1px solid  rgb(255, 0, 242); /* Rosa pálido para a borda das imagens */
     border-radius: 15px; /* Toque morbido com bordas arredondadas */
 }
 
 #perfil-img {
     margin-top: 10px;
-    max-height: 200px;
+    max-height: 300px;
     border-radius: 100%;
-    border: 5px solid #ffffff71; /* Borda branca para destacar a foto de perfil */
+    border: 5px solid rgba(255, 0, 242, 0.938);
 }
 
 .container2 {
@@ -81,9 +81,9 @@ h1 {
     padding: 20px;
 }
 
-.instagram-logo, .email-logo {
-    width: 50px; /* Tamanho das imagens de redes sociais */
-    height: 50px;
+.instagram-logo {
+    width: 70px; /* Tamanho das imagens de redes sociais */
+    height: 70px;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -93,8 +93,8 @@ h1 {
 }
 
 footer {
-    background-color: #ff00009a; /* Cor de destaque para o rodapé */
-    color: #fff;
+    background-color: #000000d7; /* Cor de destaque para o rodapé */
+    color:  rgb(255, 0, 242);
     text-align: center;
     padding: 10px;
     font-size: 14px;
